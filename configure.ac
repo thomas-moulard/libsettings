@@ -69,10 +69,10 @@ AM_MISSING_PROG([AUTOM4TE], [autom4te])
 AC_CONFIG_HEADERS([config.h])
 
 # Create Makefiles.
+#   packages/Makefile
 AC_CONFIG_FILES([
   Makefile
    doc/Makefile
-   packages/Makefile
    src/Makefile
    tests/Makefile
     tests/package.m4
